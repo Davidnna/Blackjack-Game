@@ -4,17 +4,22 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" type="image/png" href="images/table.png">
-        <link rel="stylesheet" href="index.css">
+        <!-- <link rel="icon" type="image/png" href="https://i.postimg.cc/k5ZR64mL/table.png"> -->
+        <link rel="stylesheet" href="styles/styles.css">
         <title>Blackjack Game</title>
     </head>
     <body>
-        <h1>Blackjack</h1>
-        <p id="message-el">Want to play a round?</p>
-        <p id="cards-el">Cards:</p>
-        <p id="sum-el">Sum:</p>
-        <button type="button" onclick="startGame()">START GAME</button>
-        <button type="button" onclick="newCard()">NEW CARD</button>
-        <p id="player-el"></p>
-        <script src="index.js"></script>
+        <main>
+            <!-- Header -->
+            <h1>Blackjack</h1>
+            <p id="message-el">Want to play a round?</p>
+            <p id="cards-el">Cards:</p>
+            <p id="sum-el">Sum:</p>
+            <!-- Actions -->
+            <button type="button" onclick="startGame()">START GAME</button>
+            <button type="button" onclick="newCard()">NEW CARD</button>
+            <p id="player-el"></p>
+        </main>
+        <script src="script/script.js"></script>
     </body>
 </html>

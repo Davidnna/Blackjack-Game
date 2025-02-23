@@ -1,6 +1,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("images/table.png");
+    background-image: url("../images/table.png");
+    /* background-image: url("https://i.postimg.cc/k5ZR64mL/table.png"); */
     background-size: cover;
     font-weight: bold;
     color: white;
@@ -15,15 +16,15 @@ h1 {
     font-style: italic;
 }
 
+/* Actions */
 button {
     color: #016f32;
     width: 150px;
     background: goldenrod;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 0.5em 0;
     font-weight: bold;
     border: none;
-    border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    border-radius: 0.2em;
+    margin: 0.2em 0;
+    cursor: pointer;
 }
